@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My Week 2 API</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background: #f5f5f5;
+      }
+      .card {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333;
+      }
+      .endpoint {
+        background: #eee;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        font-family: monospace;
+      }
+      .get {
+        color: #2196f3;
+      }
+      .post {
+        color: #4caf50;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>🚀 My Week 2 API</h1>
+      <p>Welcome to my Express API! Here are the available endpoints:</p>
+
+      <div class="endpoint">
+        <span class="get">GET</span> / → "My Week 2 API!"
+      </div>
+      <div class="endpoint">
+        <span class="post">POST</span> /user → Accepts {name, email}
+      </div>
+      <div class="endpoint">
+        <span class="get">GET</span> /user/:id → User profile
+      </div>
+
+      <h3>Try it:</h3>
+      <p>Use Postman or curl to test the API endpoints.</p>
+    </div>
+  </body>
+</html>
